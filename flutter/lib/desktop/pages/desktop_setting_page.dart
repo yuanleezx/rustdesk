@@ -1620,7 +1620,6 @@ class _NetworkState extends State<_Network> with AutomaticKeepAliveClientMixin {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-//test
               if (!hideWebSocket && (!hideServer || !hideProxy)) divider,
               if (!hideWebSocket)
                 switchWidget(
